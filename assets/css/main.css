@@ -1,0 +1,128 @@
+html {
+    font-size: 13pt; }
+    @media screen and (min-width: 1680px) {
+      html {
+        font-size: 11pt; } }
+    @media screen and (max-width: 980px) {
+      html {
+        font-size: 12pt; } }
+    @media screen and (max-width: 480px) {
+      html {
+        font-size: 11pt; } }
+  
+  body {
+    background-color: #ffffff;
+    color: #444444; }
+
+@media screen and (max-width: 480px) {
+        html, body {
+          min-width: 320px; } }
+      html {
+        box-sizing: border-box; }
+
+
+.nav {
+            background-color: darkgrey;
+            list-style-type: none;
+            text-align: center; 
+            padding: 0;
+            margin: 0;
+          }
+
+
+
+.nav li {
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+            margin: 12;
+          }
+
+
+
+h3 {
+    color: crimson;
+    font-size:24px;
+}
+
+
+@media screen and (max-width: 776px) {
+    div {
+      width: 100%
+    }
+  }
+
+
+.feat {
+    width: 70%;
+}
+
+.box {
+      display: flex;
+      align-items: center;
+
+        }
+.div-box {
+    background-color: burlywood;
+    margin: 5%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.links {
+    display: inline-block;
+}
+
+.img-gallery {
+    width: 31%;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+       
+}
+
+.img-prod {
+    width: 400px;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+}
+
+.img-div {
+     background-color: silver;
+}
+
+.img-intro {
+    width: 20%;
+}
+
+
+  #header {
+    background: #111111;
+    display: flex;
+     -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    
+    color: rgba(255, 255, 255, 0.5);
+    cursor: default;
+    height: 3.25rem;
+    left: 0;
+    line-height: 3.25rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10001; }    }
+
+
+
+
+
+
+
