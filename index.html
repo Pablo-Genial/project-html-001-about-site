@@ -11,119 +11,94 @@
 
 <body>
     <header id="header">
-        <h3>Pablo oldala</h3>
+        <h1>Pablo oldala</h1>
     </header>
 
-    <main class="wrapper">
+    <nav class="nav">
+        <ul class="links">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/works.html">Works</a>
+            </li>
+            <li>
+                <a href="/gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="/about.html">About</a>
+            </li>
+        </ul>
+    </nav>
 
-        <nav class="nav">
-            <ul class="links">
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="/works.html">Works</a>
-                </li>
-                <li>
-                    <a href="/gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="/about.html">About</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="flex-container">
 
-
-        <div class="nav">
-
-            <div class="feat">
-                <img class="img-intro" src="Images/Pablo_01.jpg" alt="lifelike portrait">
-            </div>
-
-            <div class="feat">
-                <article>
-                    Pablo vagyok, Gösta fia. Szülőatyám 42 éve bocsátott (rendezett) utamra, s ez idő alatt, azon túl, hogy
-                    rajongóim legnagyobb örömére meghatározó szerepre tettem a művészetek, a szórakozás, a kommunikáció világában,
-                    az informatika terén is elévülhetetlen érdemeket szereztem.
-                </article>
-
-            </div>
-
-            <div class="feat">
-                <img class="img-intro" src="Images/Gösta Ekman_01.jpg" alt="my author">
-            </div>
-
-
-        </div>
-
-
-        <section></section>
         <div>
-
-            <div class="feat">
-                Érdemdús
-                <img src="Images\Pablo_F1_érdemdús.jpg" alt="P ki érdemdús">
-            </div>
-
-
-
-            <div class="feat">
-                Hódító
-                <img src="Images\Pablo_F2_hódító.jpg" alt="P a hódító">
-            </div>
-
-
-
-            <div class="feat">
-                Vizionárius
-                <img src="Images\Pablo_F3_vizionárius.png" alt="P a vizionárius">
-            </div>
-
+            <img class="img-intro" src="Images/Pablo_01.jpg" alt="lifelike portrait">
         </div>
-        </section>
 
+        <div>
+            <aside>
+                Pablo vagyok, Gösta fia. Szülőatyám 42 éve bocsátott utamra, s ez idő alatt, azon túl, hogy
+                rajongóim legnagyobb örömére meghatározó szerepre tettem a művészetek, a szórakozás, a kommunikáció világában,
+                az informatika terén is elévülhetetlen érdemeket szereztem.
+            </aside>
 
         </div>
 
+        <div>
+            <img class="img-intro" src="Images/Gösta Ekman_01.jpg" alt="my creator">
+        </div>
+
+    </div>
 
 
+    <div id="char">
+        <div class="char-box">Érdemdús</div>
+        <div class="char-box">Hódító</div>
+        <div class="char-box">Vizionárius</div>
+    </div>
 
 
+    <br>
+    <br>
+
+    <div class="div-feat">
+        <img class="works-img" src="Images\Pablo_F1_érdemdús.jpg" alt="P ki érdemdús">
 
 
+        <span class="works-text">
+            Érdemdús
+        </span>
+    </div>
 
-    </main>
+    <br>
 
+    <div class="div-feat">
+        <img class="works-img" src="Images\Pablo_F2_hódító.jpg" alt="P a hódító">
 
+        <span class="works-text">
+            Hódító
+        </span>
+    </div>
 
+    <br>
 
+    <div class="div-feat">
+        <img class="works-img" src="Images\Pablo_F3_vizionárius.png" alt="P a vizionárius">
 
+        <span class="works-text">
+            Vizionárius
+        </span>
+    </div>
 
-
-
-
-
-    </main>
-
-
+    <br>
 
     <footer>
-
-        <li>
-            <a href="#header">
-                <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
-            </a>
-        </li>
-        <li>
-            <a href="/works.html">Works</a>
-        </li>
-        <li>
-            <a href="/gallery.html">Gallery</a>
-        </li>
-        <li>
-            <a href="/about.html">About</a>
+        <a href="#header">
+            <button onclick="(window.scrollTo({ top: 0, behavior: 'smooth' }))" id="myBtn" title="Go to top">Back to top</button>
+        </a>
     </footer>
-
 
 </body>
 
